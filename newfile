@@ -1,0 +1,31 @@
+var v=0,v1=0;
+function load_login_panel()
+{
+   alert("hello");
+    if(v%2==0){
+        //alert("hello1111111");
+        document.getElementById("login").innerHTML='Login<div id="login_panel"  ></div>';
+        v++;
+    }
+    else
+    {
+       // alert("hello2222222");
+        document.getElementById("login").innerHTML='Login';
+        v++;
+    }
+}
+function load_register_panel()
+{
+    //alert("hello");
+    if(v1%2==0){
+      //  alert("hell11111111111o");
+        document.getElementById("register").innerHTML='Register<div id="register_panel"  ></div>';
+        v1++;
+    }
+    else
+    {
+        //alert("hello222222");
+        document.getElementById("register").innerHTML='Register';
+        v1++;
+    }
+}
